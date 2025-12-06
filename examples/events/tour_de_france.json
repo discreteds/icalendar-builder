@@ -1,0 +1,43 @@
+{
+  "calendar_name": "Tour de France 2024",
+  "calendar_description": "Complete stage schedule",
+  "timezone": "Europe/Paris",
+  "events": [
+    {
+      "summary": "Stage 1: Florence – Rimini",
+      "start": "2024-06-29T09:00:00",
+      "end": "2024-06-29T17:00:00",
+      "description": "205 km, hills - Starting in Italy",
+      "categories": ["Sports", "Cycling"],
+      "custom_properties": {
+        "X-STAGE-NUMBER": "1",
+        "X-DISTANCE": "205km",
+        "X-TERRAIN": "Hills"
+      }
+    },
+    {
+      "summary": "Stage 2: Cesenatico – Bologna",
+      "start": "2024-06-30T09:00:00",
+      "end": "2024-06-30T17:00:00",
+      "description": "200 km, hills",
+      "categories": ["Sports", "Cycling"],
+      "custom_properties": {
+        "X-STAGE-NUMBER": "2",
+        "X-DISTANCE": "200km",
+        "X-TERRAIN": "Hills"
+      }
+    },
+    {
+      "summary": "Stage 3: Piacenza – Turin",
+      "start": "2024-07-01T09:00:00",
+      "end": "2024-07-01T17:00:00",
+      "description": "225 km, flat - Transfer to France",
+      "categories": ["Sports", "Cycling"],
+      "custom_properties": {
+        "X-STAGE-NUMBER": "3",
+        "X-DISTANCE": "225km",
+        "X-TERRAIN": "Flat"
+      }
+    }
+  ]
+}

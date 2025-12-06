@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID://icalendar-builder//EN
+X-WR-CALNAME:Quarterly Reviews 2024
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0600
+TZNAME:Chicago
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cfc366cd-175e-4994-94fe-8a03d6769daf@icalendar-builder.local
+DTSTAMP:2024-01-31T09:00:00Z
+DTSTART;TZID=America/Chicago:2024-01-31T09:00:00
+DURATION:PT4H
+SUMMARY:Quarterly Business Review
+DESCRIPTION:Comprehensive review of quarterly performance: financials\, KPIs\, customer
+  feedback\, and strategic planning for next quarter
+LOCATION:Main Conference Room
+STATUS:CONFIRMED
+RRULE:FREQ=MONTHLY;INTERVAL=3;COUNT=4
+ORGANIZER;CN="CFO":mailto:cfo@company.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN="CEO":mailto:ceo@company.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN="VP Sales":mailto:vp.sales@company.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN="VP Engineering":mailto:vp.engineering@company.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN="VP Marketing":mailto:vp.marketing@company.com
+CATEGORIES:Executive
+CATEGORIES:Quarterly Review
+X-MEETING-TYPE:Quarterly Business Review
+X-PREPARATION-REQUIRED:Yes - Submit reports 3 days prior
+END:VEVENT
+END:VCALENDAR

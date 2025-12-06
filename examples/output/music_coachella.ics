@@ -1,0 +1,81 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID://icalendar-builder//EN
+X-WR-CALNAME:Coachella 2024
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0800
+TZNAME:Los_Angeles
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2acc30f9-cf98-4d36-baec-96332617d91a@icalendar-builder.local
+DTSTAMP:2024-04-12T11:00:00Z
+DTSTART;TZID=America/Los_Angeles:2024-04-12T11:00:00
+DTEND;TZID=America/Los_Angeles:2024-04-13T01:00:00
+SUMMARY:Coachella Day 1 - Headliner: Lana Del Rey
+DESCRIPTION:Lineup includes: Lana Del Rey\, Tyler\, The Creator\, Doja Cat
+LOCATION:Empire Polo Club\, Indio\, CA
+STATUS:CONFIRMED
+URL:https://www.coachella.com
+CATEGORIES:Festival
+CATEGORIES:Music
+CATEGORIES:Multi-Genre
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:Festival starts in 2 hours - plan your travel!
+END:VALARM
+X-FESTIVAL:Coachella Valley Music and Arts Festival
+X-LINEUP:Lana Del Rey\, Tyler\, The Creator\, Doja Cat
+X-CAPACITY:125000
+END:VEVENT
+BEGIN:VEVENT
+UID:d2fcf05c-312e-4217-a638-748f5333be48@icalendar-builder.local
+DTSTAMP:2024-04-13T11:00:00Z
+DTSTART;TZID=America/Los_Angeles:2024-04-13T11:00:00
+DTEND;TZID=America/Los_Angeles:2024-04-14T01:00:00
+SUMMARY:Coachella Day 2 - Headliner: Tyler\, The Creator
+DESCRIPTION:Lineup includes: Tyler\, The Creator\, Bjork\, Blur
+LOCATION:Empire Polo Club\, Indio\, CA
+STATUS:CONFIRMED
+URL:https://www.coachella.com
+CATEGORIES:Festival
+CATEGORIES:Music
+CATEGORIES:Multi-Genre
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:Festival starts in 2 hours - plan your travel!
+END:VALARM
+X-FESTIVAL:Coachella Valley Music and Arts Festival
+X-LINEUP:Tyler\, The Creator\, Bjork\, Blur
+X-CAPACITY:125000
+END:VEVENT
+BEGIN:VEVENT
+UID:75c1d469-4b8f-4c22-8d0d-683206fb947b@icalendar-builder.local
+DTSTAMP:2024-04-14T11:00:00Z
+DTSTART;TZID=America/Los_Angeles:2024-04-14T11:00:00
+DTEND;TZID=America/Los_Angeles:2024-04-15T01:00:00
+SUMMARY:Coachella Day 3 - Headliner: Frank Ocean
+DESCRIPTION:Lineup includes: Frank Ocean\, Calvin Harris\, Gorillaz
+LOCATION:Empire Polo Club\, Indio\, CA
+STATUS:CONFIRMED
+URL:https://www.coachella.com
+CATEGORIES:Festival
+CATEGORIES:Music
+CATEGORIES:Multi-Genre
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:Festival starts in 2 hours - plan your travel!
+END:VALARM
+X-FESTIVAL:Coachella Valley Music and Arts Festival
+X-LINEUP:Frank Ocean\, Calvin Harris\, Gorillaz
+X-CAPACITY:125000
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,134 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID://icalendar-builder//EN
+X-WR-CALNAME:Australian Open 2024
+X-WR-TIMEZONE:Australia/Melbourne
+BEGIN:VTIMEZONE
+TZID:Australia/Melbourne
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1100
+TZNAME:Melbourne
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b6789ce5-020f-4d77-989a-d631a0189a2d@icalendar-builder.local
+DTSTAMP:2024-01-14T11:00:00Z
+DTSTART;TZID=Australia/Melbourne:2024-01-14T11:00:00
+DURATION:PT4H
+SUMMARY:Australian Open - Round 1
+DESCRIPTION:Men's Singles Round 1
+LOCATION:Melbourne Park\, Melbourne
+STATUS:CONFIRMED
+URL:https://ausopen.com
+CATEGORIES:Tennis
+CATEGORIES:Grand Slam
+X-TOURNAMENT:Australian Open
+X-ROUND:Round 1
+X-SURFACE:Hard Court
+X-CATEGORY:Grand Slam
+END:VEVENT
+BEGIN:VEVENT
+UID:329d4814-903c-4d0b-9d17-e9873482a49e@icalendar-builder.local
+DTSTAMP:2024-01-17T11:00:00Z
+DTSTART;TZID=Australia/Melbourne:2024-01-17T11:00:00
+DURATION:PT4H
+SUMMARY:Australian Open - Round 2
+DESCRIPTION:Men's Singles Round 2
+LOCATION:Melbourne Park\, Melbourne
+STATUS:CONFIRMED
+URL:https://ausopen.com
+CATEGORIES:Tennis
+CATEGORIES:Grand Slam
+X-TOURNAMENT:Australian Open
+X-ROUND:Round 2
+X-SURFACE:Hard Court
+X-CATEGORY:Grand Slam
+END:VEVENT
+BEGIN:VEVENT
+UID:af58e394-57f6-424b-a515-4899050725e3@icalendar-builder.local
+DTSTAMP:2024-01-19T11:00:00Z
+DTSTART;TZID=Australia/Melbourne:2024-01-19T11:00:00
+DURATION:PT4H
+SUMMARY:Australian Open - Round 3
+DESCRIPTION:Men's Singles Round 3
+LOCATION:Melbourne Park\, Melbourne
+STATUS:CONFIRMED
+URL:https://ausopen.com
+CATEGORIES:Tennis
+CATEGORIES:Grand Slam
+X-TOURNAMENT:Australian Open
+X-ROUND:Round 3
+X-SURFACE:Hard Court
+X-CATEGORY:Grand Slam
+END:VEVENT
+BEGIN:VEVENT
+UID:7967a6b6-338f-48fd-8b3a-77ea5bbff088@icalendar-builder.local
+DTSTAMP:2024-01-21T11:00:00Z
+DTSTART;TZID=Australia/Melbourne:2024-01-21T11:00:00
+DURATION:PT4H
+SUMMARY:Australian Open - Round 4
+DESCRIPTION:Men's Singles Round 4
+LOCATION:Melbourne Park\, Melbourne
+STATUS:CONFIRMED
+URL:https://ausopen.com
+CATEGORIES:Tennis
+CATEGORIES:Grand Slam
+X-TOURNAMENT:Australian Open
+X-ROUND:Round 4
+X-SURFACE:Hard Court
+X-CATEGORY:Grand Slam
+END:VEVENT
+BEGIN:VEVENT
+UID:95c81d75-3207-467c-8df7-a2d0c8b89a43@icalendar-builder.local
+DTSTAMP:2024-01-23T11:00:00Z
+DTSTART;TZID=Australia/Melbourne:2024-01-23T11:00:00
+DURATION:PT4H
+SUMMARY:Australian Open - Quarterfinals
+DESCRIPTION:Men's Singles Quarterfinals
+LOCATION:Melbourne Park\, Melbourne
+STATUS:CONFIRMED
+URL:https://ausopen.com
+CATEGORIES:Tennis
+CATEGORIES:Grand Slam
+X-TOURNAMENT:Australian Open
+X-ROUND:Quarterfinals
+X-SURFACE:Hard Court
+X-CATEGORY:Grand Slam
+END:VEVENT
+BEGIN:VEVENT
+UID:7c094598-3c3f-4cb5-8538-410c841c1c65@icalendar-builder.local
+DTSTAMP:2024-01-25T14:00:00Z
+DTSTART;TZID=Australia/Melbourne:2024-01-25T14:00:00
+DURATION:PT4H
+SUMMARY:Australian Open - Semifinals
+DESCRIPTION:Men's Singles Semifinals
+LOCATION:Melbourne Park\, Melbourne
+STATUS:CONFIRMED
+URL:https://ausopen.com
+CATEGORIES:Tennis
+CATEGORIES:Grand Slam
+X-TOURNAMENT:Australian Open
+X-ROUND:Semifinals
+X-SURFACE:Hard Court
+X-CATEGORY:Grand Slam
+END:VEVENT
+BEGIN:VEVENT
+UID:6e296324-5627-4a61-9f52-4b30e175c769@icalendar-builder.local
+DTSTAMP:2024-01-28T19:30:00Z
+DTSTART;TZID=Australia/Melbourne:2024-01-28T19:30:00
+DURATION:PT4H
+SUMMARY:Australian Open - Final
+DESCRIPTION:Men's Singles Final
+LOCATION:Melbourne Park\, Melbourne
+STATUS:CONFIRMED
+URL:https://ausopen.com
+CATEGORIES:Tennis
+CATEGORIES:Grand Slam
+X-TOURNAMENT:Australian Open
+X-ROUND:Final
+X-SURFACE:Hard Court
+X-CATEGORY:Grand Slam
+END:VEVENT
+END:VCALENDAR

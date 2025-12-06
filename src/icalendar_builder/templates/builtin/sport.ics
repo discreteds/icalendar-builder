@@ -1,0 +1,39 @@
+BEGIN:VEVENT
+UID:{{ event.uid if event.uid else 'sport-event@icalendar-builder.local' }}
+DTSTAMP:{{ event.start | datetime_format }}Z
+DTSTART;TZID={{ event.timezone }}:{{ event.start | datetime_format }}
+{% if event.end -%}
+DTEND;TZID={{ event.timezone }}:{{ event.end | datetime_format }}
+{% elif event.duration -%}
+DURATION:{{ event.duration }}
+{% endif -%}
+SUMMARY:{{ event.summary | escape_text }}
+{% if event.description -%}
+DESCRIPTION:{{ event.description | escape_text | fold_text }}
+{% endif -%}
+{% if event.location -%}
+LOCATION:{{ event.location | escape_text }}
+{% endif -%}
+STATUS:{{ event.status }}
+{% if event.url -%}
+URL:{{ event.url }}
+{% endif -%}
+{% for category in event.categories -%}
+CATEGORIES:{{ category | escape_text }}
+{% endfor -%}
+{% if not event.categories -%}
+CATEGORIES:Sports
+{% endif -%}
+{% for alarm in event.alarms -%}
+BEGIN:VALARM
+ACTION:{{ alarm.action }}
+TRIGGER:{{ alarm.trigger }}
+{% if alarm.description -%}
+DESCRIPTION:{{ alarm.description | escape_text }}
+{% endif -%}
+END:VALARM
+{% endfor -%}
+{% for key, value in event.custom_properties.items() -%}
+{{ key }}:{{ value | escape_text }}
+{% endfor -%}
+END:VEVENT

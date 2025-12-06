@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID://icalendar-builder//EN
+X-WR-CALNAME:NBA 2024 Season - Lakers
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0800
+TZNAME:Los_Angeles
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4cd025cc-315f-42c0-9992-a96219258a8c@icalendar-builder.local
+DTSTAMP:2024-02-01T19:30:00Z
+DTSTART;TZID=America/Los_Angeles:2024-02-01T19:30:00
+DTEND;TZID=America/Los_Angeles:2024-02-01T22:00:00
+SUMMARY:Lakers vs Celtics
+DESCRIPTION:NBA Regular Season matchup - Lakers home game
+LOCATION:Crypto.com Arena\, Los Angeles\, CA
+STATUS:CONFIRMED
+URL:https://www.nba.com/lakers/tickets
+CATEGORIES:Basketball
+CATEGORIES:NBA
+CATEGORIES:Home Game
+X-HOME-TEAM:Los Angeles Lakers
+X-AWAY-TEAM:Boston Celtics
+X-VENUE:Crypto.com Arena
+X-GAME-TYPE:Regular Season
+X-BROADCAST:ESPN
+END:VEVENT
+BEGIN:VEVENT
+UID:54037e06-b8cb-4445-a353-5935d90fa747@icalendar-builder.local
+DTSTAMP:2024-02-08T20:00:00Z
+DTSTART;TZID=America/Los_Angeles:2024-02-08T20:00:00
+DURATION:PT2H30M
+SUMMARY:Warriors vs Lakers
+DESCRIPTION:Lakers away game at Golden State
+LOCATION:Chase Center\, San Francisco\, CA
+STATUS:CONFIRMED
+URL:https://www.nba.com/lakers/schedule
+CATEGORIES:Basketball
+CATEGORIES:NBA
+CATEGORIES:Away Game
+X-HOME-TEAM:Golden State Warriors
+X-AWAY-TEAM:Los Angeles Lakers
+X-VENUE:Chase Center
+X-GAME-TYPE:Regular Season
+X-BROADCAST:TNT
+END:VEVENT
+END:VCALENDAR

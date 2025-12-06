@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID://icalendar-builder//EN
+X-WR-CALNAME:Taylor Swift - The Eras Tour 2024
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:New_York
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:473c0b32-0d2b-4ad7-9140-dbb147278042@icalendar-builder.local
+DTSTAMP:2024-10-18T19:00:00Z
+DTSTART;TZID=America/New_York:2024-10-18T19:00:00
+DURATION:PT3H
+SUMMARY:Taylor Swift - Miami\, FL
+DESCRIPTION:The Eras Tour - A journey through Taylor Swift's musical eras
+LOCATION:Hard Rock Stadium\, Miami\, FL
+STATUS:CONFIRMED
+URL:https://www.ticketmaster.com/taylor-swift
+CATEGORIES:Concert
+CATEGORIES:Pop
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:Concert starts in 15 minutes
+END:VALARM
+X-ARTIST:Taylor Swift
+X-TOUR:The Eras Tour
+X-VENUE:Hard Rock Stadium
+X-GENRE:Pop
+X-TICKET-PRICE:$49.50 - $449.50
+END:VEVENT
+BEGIN:VEVENT
+UID:2f263384-8567-4cc3-af26-9de0a0c3fa81@icalendar-builder.local
+DTSTAMP:2024-10-25T19:00:00Z
+DTSTART;TZID=America/New_York:2024-10-25T19:00:00
+DURATION:PT3H
+SUMMARY:Taylor Swift - New Orleans\, LA
+DESCRIPTION:The Eras Tour - A journey through Taylor Swift's musical eras
+LOCATION:Caesars Superdome\, New Orleans\, LA
+STATUS:CONFIRMED
+URL:https://www.ticketmaster.com/taylor-swift
+CATEGORIES:Concert
+CATEGORIES:Pop
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:Concert starts in 15 minutes
+END:VALARM
+X-ARTIST:Taylor Swift
+X-TOUR:The Eras Tour
+X-VENUE:Caesars Superdome
+X-GENRE:Pop
+X-TICKET-PRICE:$49.50 - $449.50
+END:VEVENT
+BEGIN:VEVENT
+UID:7607c5c1-cecf-44f6-962d-9d9680095c8d@icalendar-builder.local
+DTSTAMP:2024-11-01T19:00:00Z
+DTSTART;TZID=America/New_York:2024-11-01T19:00:00
+DURATION:PT3H
+SUMMARY:Taylor Swift - Indianapolis\, IN
+DESCRIPTION:The Eras Tour - A journey through Taylor Swift's musical eras
+LOCATION:Lucas Oil Stadium\, Indianapolis\, IN
+STATUS:CONFIRMED
+URL:https://www.ticketmaster.com/taylor-swift
+CATEGORIES:Concert
+CATEGORIES:Pop
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:Concert starts in 15 minutes
+END:VALARM
+X-ARTIST:Taylor Swift
+X-TOUR:The Eras Tour
+X-VENUE:Lucas Oil Stadium
+X-GENRE:Pop
+X-TICKET-PRICE:$49.50 - $449.50
+END:VEVENT
+END:VCALENDAR

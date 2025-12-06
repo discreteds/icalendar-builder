@@ -1,0 +1,115 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID://icalendar-builder//EN
+X-WR-CALNAME:The Troubadour - October 2024
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0800
+TZNAME:Los_Angeles
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:21e8da63-b765-4aa8-bfe7-f6e41525680b@icalendar-builder.local
+DTSTAMP:2024-10-05T20:00:00Z
+DTSTART;TZID=America/Los_Angeles:2024-10-05T20:00:00
+DURATION:PT3H
+SUMMARY:Japanese Breakfast at The Troubadour
+DESCRIPTION:Doors at 7:00 PM\, Show at 8:00 PM\nOpening act: Vagabon
+LOCATION:The Troubadour\, West Hollywood\, CA
+STATUS:CONFIRMED
+URL:https://www.troubadour.com
+CATEGORIES:Concert
+CATEGORIES:Indie Rock
+CATEGORIES:Indie
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:Concert starts in 15 minutes
+END:VALARM
+X-ARTIST:Japanese Breakfast
+X-VENUE:The Troubadour
+X-GENRE:Indie Rock
+X-OPENING-ACT:Vagabon
+X-DOORS:19:00
+X-AGE-RESTRICTION:21+
+END:VEVENT
+BEGIN:VEVENT
+UID:16f87fc7-2e23-4928-92d2-e7a6040a5ddf@icalendar-builder.local
+DTSTAMP:2024-10-12T20:00:00Z
+DTSTART;TZID=America/Los_Angeles:2024-10-12T20:00:00
+DURATION:PT3H
+SUMMARY:Phoebe Bridgers at The Troubadour
+DESCRIPTION:Doors at 7:00 PM\, Show at 8:00 PM\nOpening act: MUNA
+LOCATION:The Troubadour\, West Hollywood\, CA
+STATUS:CONFIRMED
+URL:https://www.troubadour.com
+CATEGORIES:Concert
+CATEGORIES:Indie Folk
+CATEGORIES:Indie
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:Concert starts in 15 minutes
+END:VALARM
+X-ARTIST:Phoebe Bridgers
+X-VENUE:The Troubadour
+X-GENRE:Indie Folk
+X-OPENING-ACT:MUNA
+X-DOORS:19:00
+X-AGE-RESTRICTION:21+
+END:VEVENT
+BEGIN:VEVENT
+UID:fa8f552e-c1e0-4a8d-a08a-005b71cd846d@icalendar-builder.local
+DTSTAMP:2024-10-19T20:00:00Z
+DTSTART;TZID=America/Los_Angeles:2024-10-19T20:00:00
+DURATION:PT3H
+SUMMARY:Boy Genius at The Troubadour
+DESCRIPTION:Doors at 7:00 PM\, Show at 8:00 PM\nOpening act: MUNA
+LOCATION:The Troubadour\, West Hollywood\, CA
+STATUS:CONFIRMED
+URL:https://www.troubadour.com
+CATEGORIES:Concert
+CATEGORIES:Indie Folk
+CATEGORIES:Indie
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:Concert starts in 15 minutes
+END:VALARM
+X-ARTIST:Boy Genius
+X-VENUE:The Troubadour
+X-GENRE:Indie Folk
+X-OPENING-ACT:MUNA
+X-DOORS:19:00
+X-AGE-RESTRICTION:21+
+END:VEVENT
+BEGIN:VEVENT
+UID:8fbbfff0-3ccc-489d-8c9f-63e703bfe731@icalendar-builder.local
+DTSTAMP:2024-10-26T20:00:00Z
+DTSTART;TZID=America/Los_Angeles:2024-10-26T20:00:00
+DURATION:PT3H
+SUMMARY:Mitski at The Troubadour
+DESCRIPTION:Doors at 7:00 PM\, Show at 8:00 PM\nOpening act: Jay Som
+LOCATION:The Troubadour\, West Hollywood\, CA
+STATUS:CONFIRMED
+URL:https://www.troubadour.com
+CATEGORIES:Concert
+CATEGORIES:Indie Rock
+CATEGORIES:Indie
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:Concert starts in 15 minutes
+END:VALARM
+X-ARTIST:Mitski
+X-VENUE:The Troubadour
+X-GENRE:Indie Rock
+X-OPENING-ACT:Jay Som
+X-DOORS:19:00
+X-AGE-RESTRICTION:21+
+END:VEVENT
+END:VCALENDAR

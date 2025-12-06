@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID://icalendar-builder//EN
+X-WR-CALNAME:Board Meetings 2024
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:New_York
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c33ca8fc-00a5-4dce-ba42-05ea3a5c2723@icalendar-builder.local
+DTSTAMP:2024-01-15T10:00:00Z
+DTSTART;TZID=America/New_York:2024-01-15T10:00:00
+DURATION:PT3H
+SUMMARY:Board of Directors Meeting
+DESCRIPTION:Monthly board meeting to review company performance\, approve budgets\, and
+  discuss strategic initiatives
+LOCATION:Executive Boardroom
+STATUS:CONFIRMED
+RRULE:FREQ=MONTHLY;COUNT=12;BYDAY=MO;BYMONTHDAY=15
+ORGANIZER;CN="CEO":mailto:ceo@company.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN="Board Member 1":mailto:board.member1@company.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN="Board Member 2":mailto:board.member2@company.com
+ATTENDEE;ROLE=OPT-PARTICIPANT;RSVP=FALSE;CN="Corporate Secretary":mailto:secretary@company.com
+CATEGORIES:Executive
+CATEGORIES:Board
+X-MEETING-TYPE:Board of Directors
+X-QUORUM-REQUIRED:Yes
+END:VEVENT
+END:VCALENDAR

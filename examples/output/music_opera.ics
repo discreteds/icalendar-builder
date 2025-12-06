@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID://icalendar-builder//EN
+X-WR-CALNAME:Metropolitan Opera - Winter Season
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:New_York
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9f5b7962-270c-427a-9475-0bb10f9cabb7@icalendar-builder.local
+DTSTAMP:2024-12-15T19:30:00Z
+DTSTART;TZID=America/New_York:2024-12-15T19:30:00
+DURATION:PT3H30M
+SUMMARY:La Bohème by Giacomo Puccini
+DESCRIPTION:Puccini's timeless tale of love and loss in 1830s Paris. Sung in Italian wi
+ th English subtitles. Two 15-minute intermissions.
+LOCATION:Metropolitan Opera House\, Lincoln Center\, New York\, NY
+STATUS:CONFIRMED
+URL:https://www.metopera.org
+CATEGORIES:Opera
+CATEGORIES:Classical
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT45M
+DESCRIPTION:Opera starts in 45 minutes - arrive early for seating
+END:VALARM
+X-COMPOSER:Giacomo Puccini
+X-CONDUCTOR:Yannick Nézet-Séguin
+X-DIRECTOR:Franco Zeffirelli
+X-LANGUAGE:Italian
+X-SUBTITLES:English
+X-DURATION:3 hours 30 minutes (including intermissions)
+END:VEVENT
+END:VCALENDAR

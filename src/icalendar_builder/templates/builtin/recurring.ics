@@ -1,0 +1,43 @@
+BEGIN:VEVENT
+UID:{{ event.uid if event.uid else 'recurring-event@icalendar-builder.local' }}
+DTSTAMP:{{ event.start | datetime_format }}Z
+DTSTART;TZID={{ event.timezone }}:{{ event.start | datetime_format }}
+{% if event.end -%}
+DTEND;TZID={{ event.timezone }}:{{ event.end | datetime_format }}
+{% elif event.duration -%}
+DURATION:{{ event.duration }}
+{% endif -%}
+SUMMARY:{{ event.summary | escape_text }}
+{% if event.description -%}
+DESCRIPTION:{{ event.description | escape_text | fold_text }}
+{% endif -%}
+{% if event.location -%}
+LOCATION:{{ event.location | escape_text }}
+{% endif -%}
+STATUS:{{ event.status }}
+{% if event.recurrence -%}
+RRULE:FREQ={{ event.recurrence.frequency }}{%- if event.recurrence.interval > 1 %};INTERVAL={{ event.recurrence.interval }}{%- endif %}{%- if event.recurrence.count %};COUNT={{ event.recurrence.count }}{%- elif event.recurrence.until %};UNTIL={{ event.recurrence.until | datetime_format }}Z{%- endif %}{%- if event.recurrence.by_day %};BYDAY={{ event.recurrence.by_day | join(',') }}{%- endif %}{%- if event.recurrence.by_month_day %};BYMONTHDAY={{ event.recurrence.by_month_day | join(',') }}{%- endif %}
+
+{% endif -%}
+{% if event.organizer -%}
+ORGANIZER;CN="{{ event.organizer.name | escape_text if event.organizer.name else event.organizer.email }}":mailto:{{ event.organizer.email }}
+{% endif -%}
+{% for attendee in event.attendees -%}
+ATTENDEE;ROLE={{ attendee.role }};RSVP={{ 'TRUE' if attendee.rsvp else 'FALSE' }}{% if attendee.name -%};CN="{{ attendee.name | escape_text }}"{% endif -%}:mailto:{{ attendee.email }}
+{% endfor -%}
+{% for category in event.categories -%}
+CATEGORIES:{{ category | escape_text }}
+{% endfor -%}
+{% for alarm in event.alarms -%}
+BEGIN:VALARM
+ACTION:{{ alarm.action }}
+TRIGGER:{{ alarm.trigger }}
+{% if alarm.description -%}
+DESCRIPTION:{{ alarm.description | escape_text }}
+{% endif -%}
+END:VALARM
+{% endfor -%}
+{% for key, value in event.custom_properties.items() -%}
+{{ key }}:{{ value | escape_text }}
+{% endfor -%}
+END:VEVENT

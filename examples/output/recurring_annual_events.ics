@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID://icalendar-builder//EN
+X-WR-CALNAME:Annual Company Events
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:New_York
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:78fc19c5-cca0-41ce-97c1-173b6d70e318@icalendar-builder.local
+DTSTAMP:2024-07-15T09:00:00Z
+DTSTART;TZID=America/New_York:2024-07-15T09:00:00
+DURATION:P3D
+SUMMARY:Annual Company Retreat
+DESCRIPTION:Annual all-company retreat for team building\, strategic planning\, and cel
+ ebration
+LOCATION:Mountain Resort\, Aspen\, CO
+STATUS:CONFIRMED
+RRULE:FREQ=YEARLY;COUNT=5
+ORGANIZER;CN="HR Department":mailto:hr@company.com
+CATEGORIES:Company
+CATEGORIES:Retreat
+CATEGORIES:Annual
+X-EVENT-TYPE:Company Retreat
+X-ATTENDANCE:All employees
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID://icalendar-builder//EN
+X-WR-CALNAME:Team Meetings
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:New_York
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e3fc30c3-3669-4d71-8cd8-810f142a458d@icalendar-builder.local
+DTSTAMP:2024-01-08T09:00:00Z
+DTSTART;TZID=America/New_York:2024-01-08T09:00:00
+DURATION:PT15M
+SUMMARY:Daily Standup
+DESCRIPTION:Quick daily sync - What did you do? What will you do? Any blockers?
+LOCATION:Conference Room A / Zoom
+STATUS:CONFIRMED
+RRULE:FREQ=DAILY;COUNT=60;BYDAY=MO,TU,WE,TH,FR
+ORGANIZER;CN="Alice Scrum Master":mailto:scrum.master@company.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN="Bob Developer":mailto:dev1@company.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN="Carol Developer":mailto:dev2@company.com
+ATTENDEE;ROLE=OPT-PARTICIPANT;RSVP=FALSE;CN="Dave Designer":mailto:designer@company.com
+CATEGORIES:Scrum
+CATEGORIES:Daily
+END:VEVENT
+BEGIN:VEVENT
+UID:9eefff6c-3948-4145-944c-c503c895119d@icalendar-builder.local
+DTSTAMP:2024-01-08T14:00:00Z
+DTSTART;TZID=America/New_York:2024-01-08T14:00:00
+DURATION:PT2H
+SUMMARY:Sprint Planning
+DESCRIPTION:Plan the next two-week sprint: review backlog\, estimate stories\, commit t
+ o sprint goals
+LOCATION:Conference Room B
+STATUS:CONFIRMED
+RRULE:FREQ=WEEKLY;INTERVAL=2;COUNT=12;BYDAY=MO
+ORGANIZER;CN="Alice Scrum Master":mailto:scrum.master@company.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN="Eve Product Owner":mailto:product.owner@company.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN="Bob Developer":mailto:dev1@company.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN="Carol Developer":mailto:dev2@company.com
+CATEGORIES:Scrum
+CATEGORIES:Planning
+END:VEVENT
+END:VCALENDAR

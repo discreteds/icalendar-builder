@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID://icalendar-builder//EN
+X-WR-CALNAME:Q1 Business Events
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:New_York
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:68f8b8de-2d6f-4e16-b788-33b23f56b814@icalendar-builder.local
+DTSTAMP:2024-01-15T14:00:00Z
+DTSTART;TZID=America/New_York:2024-01-15T14:00:00
+DTEND;TZID=America/New_York:2024-01-15T15:00:00
+SUMMARY:Q1 Planning Meeting
+DESCRIPTION:Quarterly planning session for Q1 2024 goals and objectives
+LOCATION:Conference Room B
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://meet.company.com/q1-planning
+ORGANIZER;CN="Sarah Manager":mailto:manager@company.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN="John Developer":mailto:john@company.com
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=TRUE;CN="Jane Designer":mailto:jane@company.com
+ATTENDEE;ROLE=OPT-PARTICIPANT;RSVP=FALSE;CN="Bob Consultant":mailto:bob@company.com
+CATEGORIES:Business
+CATEGORIES:Planning
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT15M
+DESCRIPTION:Meeting starts in 15 minutes
+END:VALARM
+END:VEVENT
+END:VCALENDAR
